@@ -1,9 +1,8 @@
-> [!NOTE]
+# React + Vite
 
-Is an app where you can manage users from create until get a CRUD ( Create , Read , Update and Delete ). Both functions are used on app to complete a great experience
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-> Contains a table with his correspond files, each one users. If you hover on each one, they show their correspond buttons ( update and delete )
-> On update button:
-  > If you click button, it displayes a form over the table replacing the current user by a input with default value as user
-  > If you click delete, it will delete the user throught his id
-> Inluded a pagination to nagivate without using scroll and facilitie to user    
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
